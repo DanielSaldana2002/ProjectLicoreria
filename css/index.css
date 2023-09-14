@@ -1,0 +1,15 @@
+*{
+    overflow: hidden;
+}
+#imagen_de_inicio{
+    position: relative;
+    width: 82em;
+    height: 52em;
+    margin-left: 180px;
+    margin-top: -24px;
+}
+
+h1{
+    position: absolute;
+    z-index: 1;
+}
