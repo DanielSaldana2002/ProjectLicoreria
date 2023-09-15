@@ -1,15 +1,38 @@
-*{
+body{
     overflow: hidden;
+    display: flex;
+    flex: auto;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 10;
+    top: 15px;
+ 
 }
+
 #imagen_de_inicio{
     position: relative;
-    width: 82em;
+    width: 84em;
     height: 52em;
-    margin-left: 180px;
-    margin-top: -24px;
+    margin-left: 200px;
+    margin-top: -12;
+    margin-right: 300px ;
 }
 
 h1{
-    position: absolute;
+    
     z-index: 1;
+}
+
+#box-inicio{
+    z-index: 1;
+    position: absolute;
+    margin-left: 1em;
+    margin-top: 5em;
+    padding-top: 15em;
+    padding-bottom: 8em;
+    padding-left: 20em;
+    background-color: red;
+    opacity: 100%;
+    transform: skewY(-5deg);
 }
