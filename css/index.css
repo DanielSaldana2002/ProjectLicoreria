@@ -1,0 +1,92 @@
+body{
+    overflow: hidden;
+    display: flex;
+    flex: auto;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 10;
+    top: 15px;
+}
+#img{
+  position: absolute;
+  background-image: url(https://img.freepik.com/foto-gratis/vista-superior-botellas-vino-sobre-fondo-madera_23-2148214866.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-bottom: 835px;
+  padding-right: 1290px;
+  margin-left: 0px; 
+}
+#letras{
+  position: absolute;
+  font-size: 85px;
+  margin-top: -5px;
+  margin-left: 250px;
+}
+
+/* Estilos para el menú vertical */
+#menu {
+  background-color: #555;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 60px;
+  width: 300px; /* Ancho del menú */
+  height: 100%; /* Altura del menú, ocupa toda la altura del viewport */
+  position: fixed; /* Fijar el menú en su lugar */
+  top: 0;
+  left: 0;
+  overflow-y: auto; /* Agregar desplazamiento vertical si es necesario */
+}
+
+/* Estilos para la lista de elementos del menú */
+#menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos para los elementos del menú */
+#menu li {
+  padding: 12px;
+}
+
+/* Estilos para los enlaces dentro de los elementos del menú */
+#menu a {
+  display: block; /* Hacer que los enlaces ocupen todo el espacio disponible */
+  text-decoration: none; /* Quitar subrayado de los enlaces */
+  color: #fff; /* Color del texto de los enlaces */
+  padding: 10px 20px; /* Espacio alrededor del texto del enlace */
+}
+
+/* Estilos para los enlaces cuando se les pasa el mouse por encima */
+#menu a:hover {
+  background-color: #555; /* Cambiar el color de fondo en el hover */
+}
+
+#inicio{
+  position: absolute;
+  background-image: linear-gradient(to right, black, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 60px;
+  padding: 80px;
+  margin-top: 120px;
+}
+#productos{
+  position: absolute;
+  background-image: linear-gradient(to right, black, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 60px;
+  padding: 80px;
+  margin-top: 320px;
+}
+#contacto{
+ 
+
+}
