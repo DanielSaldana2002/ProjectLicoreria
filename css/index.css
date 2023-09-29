@@ -65,28 +65,55 @@ body{
 #menu a:hover {
   background-color: #555; /* Cambiar el color de fondo en el hover */
 }
-
-#inicio{
+#img2{
   position: absolute;
-  background-image: linear-gradient(to right, black, red);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 60px;
-  padding: 80px;
-  margin-top: 120px;
+  background-image: url(https://img.freepik.com/foto-gratis/vista-superior-botellas-vino-sobre-fondo-madera_23-2148214866.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-bottom: 835px;
+  padding-right: 1290px;
+  margin-left: 0px; 
 }
-#productos{
+#titulo{
+ position: absolute;
+ background: linear-gradient(to right,Maroon, black  ); /* Cambia los colores según tu preferencia */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+ font-size: 60px;
+ margin-top: -100px;
+ margin-left: 250px;
+}
+#nombre{
   position: absolute;
-  background-image: linear-gradient(to right, black, red);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 60px;
-  padding: 80px;
-  margin-top: 320px;
+  background-color: antiquewhite;
+  margin-left: 455px;
 }
-#contacto{
- 
+#lis{
+  position: absolute;
+  list-style: none; 
+  font-size: 80px;
+}
+#imp{
+  font-size: 40px;
+}
+#imp:hover {
+    background-color: #9dc7f3;
+}
+#bot{
+  font-size: 100px; 
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 510px;
+}
+.boton{
+  font-size: 30px;
+  border: none; /* Sin borde */
+  border-radius: 9px; /* Bordes redondeados */
+}
+.boton:hover {
+    background-color: #9dc7f3;
+}
 
-}
