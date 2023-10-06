@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+      background: url(../img/f.jpg) no-repeat center top;
+      background-size: cover;
+      font-family: sans-serif;
+      height: 100vh;
+    }
+  
+  .registro{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .controls1{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+    background: #24303c;
+  }
+  
+  .registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+  }
+  
+  .registro .boton{
+    width: 100%;
+    background:  #4CAF50;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  
+  
+  
+  
+  
