@@ -10,18 +10,35 @@
 		<title>Tienda</title>
 		<link rel="stylesheet" href="styles.css" />
 	</head>
+
+
 	<body>
+
+		<header>
+			<div class="container">	
+				<div class="item">
+				<h1>Buscador de Productos</h1>
+				<form id="search-form">
+					<input type="text" id="search-input" placeholder="Buscar productos...">
+				</form>
+				</div>
+			</div>
+			</header>	
 
 		<div class="cart">
 			<div class="item">
-			<h2>Carrito de compra</h2>
+			<h1>Carrito de compra</h1>
 			<ul id="cart-items">
 				<!-- Los elementos agregados al carrito se mostrarán aquí -->
 			</ul>
+			<button class="cobrar">Cobrar venta</button>
 			</div>
 		</div>
 
+
+	<ul id="product-list">
 		<div class="container-items">
+			<li>
 			<div class="item">
 				<figure>
 					<img
@@ -29,12 +46,15 @@
 						alt="producto"
 					/>
 				</figure>
+				
 				<div class="info-product">
 					<h2>Zapatos Nike</h2>
 					<p class="price">$80</p>
 					<button class="add-to-cart">Añadir al carrito</button>
 				</div>
 			</div>
+			</li>
+			<li>
 			<div class="item">
 				<figure>
 					<img
@@ -48,6 +68,8 @@
 					<button class="add-to-cart">Añadir al carrito</button>
 				</div>
 			</div>
+			</li>
+			<li>
 			<div class="item">
 				<figure>
 					<img
@@ -61,6 +83,8 @@
 					<button class="add-to-cart">Añadir al carrito</button>
 				</div>
 			</div>
+			</li>
+			<li>
 			<div class="item">
 				<figure>
 					<img
@@ -74,6 +98,8 @@
 					<button class="add-to-cart">Añadir al carrito</button>
 				</div>
 			</div>
+			</li>
+			<li>
 			<div class="item">
 				<figure>
 					<img
@@ -87,8 +113,9 @@
 					<button class="add-to-cart">Añadir al carrito</button>
 				</div>
 			</div>
+			</li>
 		</div>
-
+    </ul>
 
 	</body>
 </html>
@@ -109,6 +136,28 @@
 
                 cartItemsList.appendChild(cartItem);
             });
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchInput = document.getElementById('search-input');
+        const productList = document.getElementById('product-list').getElementsByTagName('li');
+
+        searchInput.addEventListener('input', function () {
+            const searchTerm = searchInput.value.toLowerCase();
+
+            for (let i = 0; i < productList.length; i++) {
+                const product = productList[i];
+                const productName = product.textContent.toLowerCase();
+
+                if (productName.includes(searchTerm)) {
+                    product.style.display = 'block';
+                } else {
+                    product.style.display = 'none';
+                }
+            }
         });
     });
 </script>

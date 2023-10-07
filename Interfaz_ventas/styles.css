@@ -32,6 +32,7 @@ body{
 
 img{
     max-width: 100%;
+
 }
 
 /* Header */
@@ -166,6 +167,7 @@ header{
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     transition: all .5s;
+
 }
 
 .item figure{
@@ -183,6 +185,7 @@ header{
     flex-direction: column;
     gap: 10px;
     background-color: #500d0d;
+    padding: 20px;
 }
 
 .price{
@@ -201,8 +204,28 @@ header{
 
 .cart {
     border: 1px solid #333;
-    padding: 10px;
     margin: 10px;
     background-color: #500d0d;
+    width: 50%; /* Ancho del contenido principal */
+    float: left; /* Hace que el contenido principal flote a la izquierda */
+    padding: 20px; /* Espacio alrededor del contenido principal */
 
+  }
+
+  .container {
+    border: 1px solid #333;
+    margin: 10px;
+    width: 100%; /* Ancho del contenido principal */
+    float: left; /* Hace que el contenido principal flote a la izquierda */
+    background-color: #050505; /* Color de fondo del contenido principal */
+    padding: 20px; /* Espacio alrededor del contenido principal */
+  }
+
+
+
+#search-input {
+    width: 300px; /* Cambia el ancho de la caja de texto */
+    height: 40px; /* Cambia la altura de la caja de texto */
+    padding: 10px; /* Añade espacio interno para el contenido */
+    font-size: 16px; /* Cambia el tamaño de fuente */
   }
